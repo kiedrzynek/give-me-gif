@@ -8,7 +8,7 @@ $(document).ready(function() {
         }
     ).done(function(response) {
         let data = response.data;
-        $('body').append(`<img src=${data.images.downsized.url} />`);
+        $('main').append(`<img class="gif" src=${data.images.downsized.url} />`);
     }).fail(function(data) {
         let faildata = data.responseJSON.meta.msg;
         console.log(faildata);
