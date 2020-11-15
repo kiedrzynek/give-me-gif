@@ -3,7 +3,8 @@ $(document).ready(function() {
         'https://api.giphy.com/v1/gifs/random',
         {
             api_key: 'udyq3h2fMZG5YRkgWF3Q2f0t61pUNnSc',
-            rating: 'g'
+            rating: 'g',
+            tag: 'cat'
         }
     ).done(function(response) {
         let data = response.data;
