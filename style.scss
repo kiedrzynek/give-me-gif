@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body, html {
     background-color: #1b1b1b;
 }
@@ -7,4 +13,36 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    .flex {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 50px;
+
+        input {
+            width: 200px;
+            height: 50px;
+            font-size: 1.05rem;
+            padding: 0 10px;
+        }
+    
+        button {
+            background-color: #2aaccc;
+            border: none;
+            width: 150px;
+            height: 50px;
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 1.05rem;
+    
+            &:hover {
+                background-color: #2288a1;
+            }
+        }
+    }
+
+    #gif-container {
+        text-align: center;
+    }
 }
+
