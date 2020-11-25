@@ -83,4 +83,9 @@ main #gif-container {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
 /*# sourceMappingURL=style.css.map */
