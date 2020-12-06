@@ -87,5 +87,11 @@ main #gif-container {
 footer {
   position: fixed;
   bottom: 0;
+  width: 100%;
+}
+
+footer img {
+  display: block;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */
